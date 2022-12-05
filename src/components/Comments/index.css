@@ -1,0 +1,51 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+
+.app-container {
+  height: 100vh;
+  padding: 30px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.comments-image {
+  width: 150px;
+  height: 200px;
+}
+
+.textarea {
+  margin: 10px;
+}
+
+.input-element {
+  margin: 10px;
+}
+
+.button {
+  background-color: #0284c7;
+  color: #ffffff;
+  border-style: none;
+  width: 100px;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+.comments-count {
+  background-color: #0284c7;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 3px;
+  width: 20px;
+  padding: 2px;
+  margin: 10px;
+}
